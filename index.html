@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ibbe — IT Security</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <span class="nav-logo">Ibrahim Traoré<span class="accent">.</span>dev</span>
+    <ul class="nav-links">
+      <li><a href="#om">Om</a></li>
+      <li><a href="#kompetenser">Kompetenser</a></li>
+      <li><a href="#projekt">Projekt</a></li>
+      <li><a href="#kontakt">Kontakt</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+   <section class="hero">
+  <div class="hero-content">
+    <div class="hero-text">
+      <div class="hero-tag">[ IT-säkerhet & cybersecurity ]</div>
+      <h1 class="hero-title">Ibrahim Traoré<span class="accent">.</span></h1>
+      <p class="hero-sub">Framtida CISO. Säkerhetstänkare. Bygger grunden nu.</p>
+      <div class="hero-cta">
+        <a href="#projekt" class="btn-primary">Se mina projekt</a>
+        <a href="#kontakt" class="btn-secondary">Kontakta mig</a>
+      </div>
+    </div>
+    <img src="CV_bild.jpeg" alt="Ibrahim Traoré" class="profile-img">
+  </div>
+  <div class="hero-scroll">↓</div>
+</section>
+
+  <!-- Koden under är den orginala och koden ovanför är en ny kod som lägger till en bild-->
+  <!-- <section class="hero">
+    <div class="hero-tag">[ IT-säkerhet & cybersecurity ]</div>
+    <h1 class="hero-title">Ibrahim Traoré<span class="accent">.</span></h1>
+    <p class="hero-sub">Framtida CISO. Säkerhetstänkare. Bygger grunden nu.</p>
+    <div class="hero-cta">
+      <a href="#projekt" class="btn-primary">Se mina projekt</a>
+      <a href="#kontakt" class="btn-secondary">Kontakta mig</a>
+    </div>
+    <div class="hero-scroll">↓</div>
+  </section> -->
+
+  <!-- OM MIG -->
+  <section class="section" id="om">
+    <div class="section-label">// om mig</div>
+    <div class="about-grid">
+      <div class="about-text">
+        <h2>Vem är jag?</h2>
+        <p>
+          Jag är född 2003 och baserad i Stockholm med ett brinnande intresse för IT och speciellt IT-säkerhet,
+          kryptografi och hur man skyddar system mot morgondagens hot — inklusive kvantdatorer.
+        </p>
+        <p>
+          Just nu studerar jag en kurs i nätverk och kommunikation och söker YH-utbildningar inom IT-säkerhet inför hösten 2026.
+          Parallellt arbetar jag och bygger projekt för att vässa mina tekniska kunskaper samt att jag uppskattar att hitta på nya saker att bygga.
+        </p>
+      </div>
+      <div class="about-stats">
+        <div class="stat">
+          <span class="stat-num">22</span>
+          <span class="stat-label">år</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">STH</span>
+          <span class="stat-label">Stockholm</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">Fyll i med något</span>
+          <span class="stat-label">Fyll i med något</span>          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KOMPETENSER -->
+  <section class="section dark" id="kompetenser">
+    <div class="section-label">// kompetenser</div>
+    <h2>Vad kan jag?</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-icon">🐍</div>
+        <h3>Python</h3>
+        <p>Programmering, loopar, funktioner, filhantering och projekt som port scanner.</p>
+      </div>
+      <div class="skill-card">
+          <div class="skill-icon">🔐</div>
+        <h3>C#</h3> 
+        <p>Grundläggande programmering</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🌐</div>
+        <h3>Webb</h3>
+        <p>HTML, CSS och JavaScript — bygger just nu min portfolio och fortsätter lära mig frontend.</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🖥️</div>
+        <h3>IT-support</h3>
+        <p>Hårdvara, nätverk och felsökning.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJEKT -->
+  <section class="section" id="projekt">
+    <div class="section-label">// projekt</div>
+    <h2>Vad har jag byggt?</h2>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-lang">Python</div>
+        <h3>Kontaktregister</h3>
+        <p>Ett CLI-baserat kontaktregister med sökning, redigering och fillagring. Slutprojekt i Programmering 1.</p>
+        <a href="#" class="project-link">GitHub →</a>
+      </div>
+
+      <div class="project-card">
+        <div class="project-lang">Python</div>
+        <h3>Gissningsspel</h3>
+        <p>Talbaserat gissningsspel med poängsystem och felhantering. Byggt som del av kursen.</p>
+        <a href="#" class="project-link">GitHub →</a>
+      </div>
+
+      <div class="project-card featured">
+        <div class="project-lang">Python · Nätverk</div>
+        <h3>Port Scanner</h3>
+        <p>Mini-Nmap byggd med Pythons socket-bibliotek. Skannar öppna portar och identifierar tjänster.</p>
+        <a href="#" class="project-link">GitHub →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- KONTAKT -->
+  <section class="section dark" id="kontakt">
+    <div class="section-label">// kontakt</div>
+    <h2>Säg hej</h2>
+    <p class="kontakt-sub">Intresserad av IT-säkerhet, samarbete eller bara ett snack? Hör av dig.</p>
+    <div class="kontakt-links">
+      <!--Koden under är för att man inte ska kunna trycka på min email utan bara kunna se den-->
+      <div class="kontakt-item">
+  <span class="kontakt-icon">✉</span> Ibrahim.traore.a@gmail.com
+</div>
+      <!-- <a href="mailto:Ibrahim.traore.a@gmail.com" class="kontakt-item">
+        <span class="kontakt-icon">✉</span> Min 
+      </a> -->
+      <a href="https://www.linkedin.com/in/ibrahim-traor%C3%A9-1a1966233/" target="_blank" class="kontakt-item">
+        <span class="kontakt-icon">in</span> LinkedIn
+      </a>
+      <!-- jag markerar ut den gamla läken till linkedin för den funkade inte och lägger till en ny
+      <a href="https://linkedin.com/in/ditt-namn" target="_blank" class="kontakt-item"> -->
+        
+      </a>
+            <!--<a href="https://github.com/ditt-namn" target="_blank" class="kontakt-item"> -->
+
+      <a href="https://github.com/IbrahimTraore03" target="_blank" class="kontakt-item">
+        <span class="kontakt-icon">GH</span> GitHub
+      </a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <span>© 2025 Ibbe — byggd med HTML, CSS & JS</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
