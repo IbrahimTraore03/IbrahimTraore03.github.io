@@ -418,120 +418,11 @@ body {
   transform: translateY(0);
 }
 
-/* === RESPONSIV === */
-@media (max-width: 768px) {
-  .navbar {
-    padding: 1rem 1.5rem;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.5rem;
-  }
-
-  .nav-links {
-    gap: 1rem;
-  }
-
-  .nav-links a {
-    font-size: 0.75rem;
-  }
-
-  .hero {
-    padding: 6rem 1.5rem 3rem;
-  }
-
-  .hero-content {
-    flex-direction: column-reverse;
-    align-items: center;
-    gap: 2rem;
-  }
-
-  .profile-img {
-    width: 160px;
-    height: 160px;
-    margin-right: 0;
-    margin-bottom: 0;
-  }
-
-  .hero-title {
-    font-size: 3.5rem;
-  }
-
-  .hero-cta {
-    flex-direction: column;
-  }
-
-  .btn-primary, .btn-secondary {
-    text-align: center;
-    padding: 0.9rem 1.5rem;
-  }
-
-  .hero-scroll {
-    left: 1.5rem;
-  }
-
-  .section {
-    padding: 4rem 1.5rem;
-  }
-
-  .about-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .about-stats {
-    flex-direction: row;
-  }
-
-  .stat {
-    align-items: flex-start;
-    border-right: none;
-    border-left: 2px solid var(--accent);
-    padding-right: 0;
-    padding-left: 1rem;
-  }
-}
-/*@media (max-width: 768px) {
-  .navbar {
-    padding: 1rem 1.5rem;
-  }
-
-  .nav-links {
-    gap: 1.2rem;
-  }
-
-  .hero {
-    padding: 0 1.5rem;
-  }
-
-  .hero-scroll {
-    left: 1.5rem;
-  }
-
-  .section {
-    padding: 4rem 1.5rem;
-  }
-
-  .about-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .about-stats {
-    flex-direction: row;
-  }
-
-  .stat {
-    align-items: flex-start;
-    border-right: none;
-    border-left: 2px solid var(--accent);
-    padding-right: 0;
-    padding-left: 1rem;
-  }*/
-
 .hero-content {
-  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  gap: 4rem;
-  flex-direction: row;
+  gap: 1.5rem;
 }
 
 .hero-text {
@@ -545,6 +436,90 @@ body {
   border-radius: 50%;
   border: 2px solid var(--accent);
   flex-shrink: 0;
-  margin-right: 50px;
-  margin-bottom: 80px;
+}
+
+/* === RESPONSIV === */
+@media (max-width: 768px) {
+  .navbar {
+  padding: 1rem 1.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.nav-links {
+  gap: 1rem;
+}
+
+.nav-links a {
+  font-size: 0.75rem;
+}
+
+.hero {
+  padding: 6rem 1.5rem 3rem;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+
+.profile-img {
+  width: 110px;
+  height: 110px;
+  margin-right: 0;
+  margin-bottom: 0;
+  flex-shrink: 0;
+  order: 1;
+  margin-top: -130px;
+}
+
+.hero-text {
+  order: 0;
+}
+
+.hero-title {
+  font-size: 2.2rem;
+}
+
+.hero-sub {
+  font-size: 0.85rem;
+}
+
+.hero-cta {
+  flex-direction: column;
+}
+
+.btn-primary, .btn-secondary {
+  text-align: center;
+  padding: 0.9rem 1.5rem;
+}
+
+.hero-scroll {
+  left: 1.5rem;
+}
+
+.section {
+  padding: 4rem 1.5rem;
+}
+
+.about-grid {
+  grid-template-columns: 1fr;
+}
+
+.about-stats {
+  flex-direction: row;
+}
+
+.stat {
+  align-items: flex-start;
+  border-right: none;
+  border-left: 2px solid var(--accent);
+  padding-right: 0;
+  padding-left: 1rem;
+}
 }
